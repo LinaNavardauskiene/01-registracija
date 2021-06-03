@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./form.css">
 </head>
 
-<body>
+<body class="background">
     <main>
         <div class="left-side">
             <img src="./menulis.png" alt="melynas menulis">
@@ -19,15 +19,38 @@
             <button class="moon-button" type="button"> Sign in with Facebook</button>
         </div>
         <div class="right-side">
+            <div class="right-side-button-up" >
             <button class="right-side-button-up" type="submit">Log in</button>
             <button class="right-side-button-up" type="button">Register</button>
+        </div>
             <h1 >Register</h1>
-            <form action="#"></form>
+            <form class="form">
+                <div class="form-row">
+                    <label for="">First name</label>
+                    <input id= "First name" placeholder="type here" type="text">
+                </div>
+                <div class="form-row">
+                    <label for="">Last name</label>
+                    <input id= "Last name" placeholder="type here" type="text">
+                </div>
+                <div class="form-row">
+                    <label for="">Your email Address</label>
+                    <input id= "Your email Address" placeholder="type here" type="email">
+                </div>
+                <div class="form-row">
+                    <label for="">Password</label>
+                    <input id= "Password" placeholder="type here" type="password">
+                </div>
+                <div class="form-row">
+                    <label for="">Confirm Password</label>
+                    <input id= "Confirm Password" placeholder="type here" type="password">
+                </div>
+            </form>
             <button class="right-side-button-down" type="submit">Sign up</button>
             <nav class="links">
-            <a href="#">Already a Member?</a>
-            <p>Go to</p>
-            <a href="#">Sign in</a>
+            <a class="links" href="#">Already a Member?</a>
+            <p class="links">Go to</p>
+            <a class="links" href="#">Sign in</a>
         </nav>
         </div>
     </main>
