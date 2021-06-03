@@ -11,7 +11,7 @@ body {
 }
 main {
 display: inline-block;
-width: 800px;
+width: 1000px;
 position: absolute;
 background-color: violet;
 top: 50%;
@@ -23,33 +23,70 @@ transform: translate(-50%, -50%);
     display: inline-block;
     width: 47%;
     background-color: cornflowerblue;
+    
 }
 .left-side > img {
-    display: inline-block;
     width: 100%;
     
 }
-h1 {
-
+.left-side > h1 {
+     color: white;
+     position: absolute;
+     bottom: 100px;
 }
 .moon-button {
-
-}
+    background-color: yellowgreen;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    font-size: 15px;
+   }
 .right-side {
     display: inline-block;
-    width: 50%;
+    width: 52%;
     background-color: yellow;
+    font-size: 15px;
+    padding: 50px;
 
 }
 .right-side-button-up {
+    float: right;  
+    padding: 3px;
+}  
 
-}
-h1 {
+h1 { 
+    padding-top: 30px;
+    padding-bottom: 20px;
 
 }
 .right-side-button-down {
+    width: 100%;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #045FCA;
+    color: white;
+    border: 0;
 
 }
 .links {
+  display: inline-block;
+  padding-top: 10px;
+  color: black;
+  text-decoration: none;
+  line-height: 15px;
+
 
 }
+.links > p {
+    padding-left: 180px;
+    color: grey;
+ }
+ .links:last-child {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+ }
